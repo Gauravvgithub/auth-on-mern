@@ -26,7 +26,7 @@ const Login = () => {
       return handleError("All fields are required");
     }
     try {
-      const url = "http://localhost:3000/auth/login";
+      const url = "https://auth-on-mern.vercel.app/auth/login";
       const respone = await fetch(url, {
         method: "POST",
         headers: {
