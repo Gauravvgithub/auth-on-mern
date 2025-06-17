@@ -7,11 +7,11 @@ router.get("/", ensureAuthenticated, (request, response) => {
   response.status(200).json([
     {
       name: "mobile",
-      price: 10000,
+      price: 13500,
     },
     {
       name: "mobile",
-      price: 20000,
+      price: 25000,
     },
   ]);
 });

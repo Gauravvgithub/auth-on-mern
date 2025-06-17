@@ -12,7 +12,7 @@ const Home = () => {
     setLoggedInUser(localStorage.getItem("loggedInUser"));
   }, []);
 
-  const handleLogout = (event) => {
+  const handleLogout = () => {
     localStorage.removeItem("token");
     localStorage.removeItem("loggedInUser");
     handleSuccess("User Logged Out");
