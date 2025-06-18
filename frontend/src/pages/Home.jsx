@@ -51,9 +51,9 @@ const Home = () => {
           {products.length > 0 ? (
             products.map((item, index) => (
               <ul key={index}>
-                <span>
+                <li>
                   {item.name}: {item.price}
-                </span>
+                </li>
               </ul>
             ))
           ) : (
