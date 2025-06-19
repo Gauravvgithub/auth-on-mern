@@ -22,4 +22,8 @@ app.listen(() => {
   console.log(`server is running on https://auth-on-mern.vercel.app`);
 });
 
+// app.listen(PORT,() => {
+//   console.log(`server is running on http://localhost:${PORT}`);
+// });
+
 
